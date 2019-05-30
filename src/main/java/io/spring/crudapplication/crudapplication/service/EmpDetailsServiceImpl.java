@@ -37,7 +37,6 @@ public class EmpDetailsServiceImpl implements EmpDetailsService{
 		}
 
 		return prepareTransactionDetail(recentTransactions);
-//		return transactionList;
 	}
 	
 

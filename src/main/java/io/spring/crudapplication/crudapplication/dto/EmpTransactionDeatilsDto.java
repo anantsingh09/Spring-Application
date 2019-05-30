@@ -1,15 +1,11 @@
 package io.spring.crudapplication.crudapplication.dto;
 
-import lombok.Builder;
 import lombok.Data;
 
 @Data
 public class EmpTransactionDeatilsDto {
 
-	
-	
-
-		public double getSum() {
+	public double getSum() {
 		return sum;
 	}
 
@@ -49,14 +45,14 @@ public class EmpTransactionDeatilsDto {
 		this.count = count;
 	}
 
-		private double sum;
+	private double sum;
 
-		private double avg;
+	private double avg;
 
-		private double max;
+	private double max;
 
-		private double min;
+	private double min;
 
-		private int count;
+	private int count;
 
 }

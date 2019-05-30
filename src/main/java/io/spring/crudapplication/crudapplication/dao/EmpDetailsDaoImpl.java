@@ -7,13 +7,10 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 import org.springframework.stereotype.Component;
 
-
 @Component
 public class EmpDetailsDaoImpl implements EmpDetailsDao {
 
 	List<EmpDetailsDto> transactionData = new CopyOnWriteArrayList<>();
-	
-	
 
 	@Override
 	public void save(EmpDetailsDto empDetailsDto) {
@@ -21,7 +18,7 @@ public class EmpDetailsDaoImpl implements EmpDetailsDao {
 		transactionData.add(empDetailsDto);
 		System.out.println("Data is saved. ");
 	}
-	
+
 	@Override
 	public List<EmpDetailsDto> getAll() {
 		return transactionData;
@@ -29,7 +26,7 @@ public class EmpDetailsDaoImpl implements EmpDetailsDao {
 
 	@Override
 	public void deleteEmpDetails() {
-		transactionData.clear();		
+		transactionData.clear();
 	}
 
 }

@@ -23,6 +23,7 @@ public class EmpDetailsServiceImpl implements EmpDetailsService{
 	@Override
 	public EmpTransactionDeatilsDto getEmpDetails() {
 		List<EmpDetailsDto> transactionList = empDetailsDao.getAll();
+		
 		List<EmpDetailsDto> recentTransactions = new ArrayList<>();
 
 		for (int index = 0; index < transactionList.size(); index++) {
@@ -59,7 +60,6 @@ public class EmpDetailsServiceImpl implements EmpDetailsService{
 		xy.setMax(maxTransaction);
 		xy.setMin(minTransaction);
 		xy.setSum(sum);
-//		recentTransactions.addAll(xy);
 		
 		return xy;
 	}

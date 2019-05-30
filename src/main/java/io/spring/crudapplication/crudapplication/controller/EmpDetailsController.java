@@ -1,7 +1,5 @@
 package io.spring.crudapplication.crudapplication.controller;
 
-import java.util.List;
-
 import io.spring.crudapplication.crudapplication.dto.EmpDetailsDto;
 import io.spring.crudapplication.crudapplication.dto.EmpTransactionDeatilsDto;
 import io.spring.crudapplication.crudapplication.service.EmpDetailsService;

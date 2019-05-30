@@ -3,8 +3,6 @@ package io.spring.crudapplication.crudapplication.service;
 import io.spring.crudapplication.crudapplication.dto.EmpDetailsDto;
 import io.spring.crudapplication.crudapplication.dto.EmpTransactionDeatilsDto;
 
-import java.util.List;
-
 import org.springframework.stereotype.Service;
 
 @Service

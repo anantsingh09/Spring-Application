@@ -1,10 +1,10 @@
 package io.spring.crudapplication.crudapplication.dao;
 
+import io.spring.crudapplication.crudapplication.dto.EmpDetailsDto;
+
 import java.util.List;
 
 import org.springframework.stereotype.Component;
-
-import io.spring.crudapplication.crudapplication.dto.EmpDetailsDto;
 
 
 @Component
